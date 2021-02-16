@@ -1,0 +1,85 @@
+body{
+    background:#000 url(../img/progr1.jpg) !important;    
+}
+
+.container{
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.contact{
+    padding: 60px 0;
+}
+
+.contact .title{
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: #3895ea;
+    text-align: center !important;
+}
+
+.contact .form{
+    display:flex;
+    flex-wrap:wrap;    
+    justify-content: space-around;
+}
+
+.contact .form input[type="text"],
+.contact .form input[type="email"],
+.contact .form textarea{
+    border: 2px solid #cecece;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 20px;
+    color: #a4a4a4;
+}
+
+.contact .form input[type="text"]:focus,
+.contact .form input[type="email"]:focus,
+.contact .form textarea:focus{
+    border: 2px solid #3895ea;
+}
+
+.contact .form input[type="text"],
+.contact .form input[type="email"]{
+    width: 45%;
+    margin-bottom: 15px;
+}
+
+.contact .form textarea{
+    width: 97%;
+	height: 200px;
+	min-width: 97%;
+	max-width: 100%;
+	min-height:100px;
+	max-height: 300px;
+	margin-bottom: 15px;
+}
+
+.contact .form .button{
+    margin: auto;
+	background: #3895ea;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	padding: 15px 40px;
+	cursor: pointer;
+}
+
+.contact .form .button:hover{
+    background: #387bea;
+}
+
+@media screen and (max-width: 800px) {
+	header .menu {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 500px) {	
+
+	
+}
