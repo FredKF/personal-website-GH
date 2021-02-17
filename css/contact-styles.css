@@ -75,18 +75,19 @@ body {
 }
 
 @media screen and (max-width: 992px) {
+    
     header{
-      flex-direction: row;
+        display: flex;
+    }
 
+    header .menu {
+        justify-content: center;
     }
-    header .menu{
-      margin-bottom: 20px;      
-    }   
-    
+
     header .menu a {
-        margin: 0 20px;
-    }
-    
+        margin: 0 20px;        
+    }  
+
     .contact .form input[type="text"],
     .contact .form input[type="email"]{                
         width: 100%;
@@ -94,10 +95,11 @@ body {
     }
 
     .contact .form textarea{
-       width: 100%;
+       width: 90%;
        height: 200px;              
        max-height: 150px;
        margin-bottom: 7px;
+       font-size: 0.75em;
     }
 
     .title{
@@ -109,5 +111,13 @@ body {
     .main {
       margin-bottom: 40px;
     }  
+
+     .contact .form textarea{
+       width: 100%;
+       height: 200px;              
+       max-height: 150px;
+       margin-bottom: 7px;
+       font-size: 0.75em;
+    }
   }
 }
