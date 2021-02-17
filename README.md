@@ -2,20 +2,16 @@
 
 This is the first release for GeeksHubs Bootcamp. 
 
-## Installation
+## Pages
 
-```bash
-pip install foobar
-```
+### index.html (Home page)
+### profile.html (About page)
+### contact.html (Contact form page)
 
 ## Usage
 
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+```Result
+Run index.html file in a browser
 ```
 
 ## Contributing
