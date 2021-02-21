@@ -1,0 +1,6 @@
+#ignore .vscode folder
+.vscode
+node_modules
+LICENSE
+package-lock.json
+README.md
